@@ -7,15 +7,30 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		64087B2C284B29A000EA492D /* GameInfoTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64087B2B284B29A000EA492D /* GameInfoTableViewController.swift */; };
+		6457EBB2284A0C6900FE7EAA /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6457EBB1284A0C6800FE7EAA /* SearchViewController.swift */; };
+		6457EBB4284A0C8A00FE7EAA /* Search.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6457EBB3284A0C8A00FE7EAA /* Search.swift */; };
+		6457EBB6284A3F2A00FE7EAA /* GameCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6457EBB5284A3F2A00FE7EAA /* GameCollectionViewCell.swift */; };
 		64C14A612848B6A20073236F /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C14A602848B6A20073236F /* AppDelegate.swift */; };
 		64C14A632848B6A20073236F /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C14A622848B6A20073236F /* SceneDelegate.swift */; };
 		64C14A652848B6A20073236F /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C14A642848B6A20073236F /* ViewController.swift */; };
 		64C14A682848B6A20073236F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C14A662848B6A20073236F /* Main.storyboard */; };
 		64C14A6A2848B6A50073236F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 64C14A692848B6A50073236F /* Assets.xcassets */; };
 		64C14A6D2848B6A50073236F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 64C14A6B2848B6A50073236F /* LaunchScreen.storyboard */; };
+		64C14A752848B7460073236F /* GameListsTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C14A742848B7460073236F /* GameListsTableViewController.swift */; };
+		64C14A772848B75C0073236F /* GameListsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C14A762848B75C0073236F /* GameListsTableViewCell.swift */; };
+		64C14A792848B8D20073236F /* GameLists.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C14A782848B8D20073236F /* GameLists.swift */; };
+		64C14A7B2848D0A40073236F /* VideoCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C14A7A2848D0A40073236F /* VideoCollectionViewController.swift */; };
+		64C14A7D2848D0B20073236F /* VideoCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C14A7C2848D0B20073236F /* VideoCollectionViewCell.swift */; };
+		64C14A7F2848D1060073236F /* Videos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C14A7E2848D1060073236F /* Videos.swift */; };
+		64C14A812848E8720073236F /* YoutubeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64C14A802848E8720073236F /* YoutubeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		64087B2B284B29A000EA492D /* GameInfoTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameInfoTableViewController.swift; sourceTree = "<group>"; };
+		6457EBB1284A0C6800FE7EAA /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		6457EBB3284A0C8A00FE7EAA /* Search.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Search.swift; sourceTree = "<group>"; };
+		6457EBB5284A3F2A00FE7EAA /* GameCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionViewCell.swift; sourceTree = "<group>"; };
 		64C14A5D2848B6A20073236F /* BoardGameAPI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BoardGameAPI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		64C14A602848B6A20073236F /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		64C14A622848B6A20073236F /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +39,13 @@
 		64C14A692848B6A50073236F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		64C14A6C2848B6A50073236F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		64C14A6E2848B6A50073236F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		64C14A742848B7460073236F /* GameListsTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListsTableViewController.swift; sourceTree = "<group>"; };
+		64C14A762848B75C0073236F /* GameListsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameListsTableViewCell.swift; sourceTree = "<group>"; };
+		64C14A782848B8D20073236F /* GameLists.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameLists.swift; sourceTree = "<group>"; };
+		64C14A7A2848D0A40073236F /* VideoCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewController.swift; sourceTree = "<group>"; };
+		64C14A7C2848D0B20073236F /* VideoCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoCollectionViewCell.swift; sourceTree = "<group>"; };
+		64C14A7E2848D1060073236F /* Videos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Videos.swift; sourceTree = "<group>"; };
+		64C14A802848E8720073236F /* YoutubeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YoutubeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,6 +59,39 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64087B2A284B1ADC00EA492D /* SearchPage */ = {
+			isa = PBXGroup;
+			children = (
+				6457EBB3284A0C8A00FE7EAA /* Search.swift */,
+				6457EBB1284A0C6800FE7EAA /* SearchViewController.swift */,
+				64087B2B284B29A000EA492D /* GameInfoTableViewController.swift */,
+				6457EBB5284A3F2A00FE7EAA /* GameCollectionViewCell.swift */,
+			);
+			path = SearchPage;
+			sourceTree = "<group>";
+		};
+		6457EBAB2849BDD100FE7EAA /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				64C14A802848E8720073236F /* YoutubeViewController.swift */,
+				64C14A7A2848D0A40073236F /* VideoCollectionViewController.swift */,
+				64C14A7E2848D1060073236F /* Videos.swift */,
+				64C14A7C2848D0B20073236F /* VideoCollectionViewCell.swift */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		6457EBAC2849BDE100FE7EAA /* GameLists */ = {
+			isa = PBXGroup;
+			children = (
+				64C14A642848B6A20073236F /* ViewController.swift */,
+				64C14A742848B7460073236F /* GameListsTableViewController.swift */,
+				64C14A762848B75C0073236F /* GameListsTableViewCell.swift */,
+				64C14A782848B8D20073236F /* GameLists.swift */,
+			);
+			path = GameLists;
+			sourceTree = "<group>";
+		};
 		64C14A542848B6A20073236F = {
 			isa = PBXGroup;
 			children = (
@@ -56,9 +111,11 @@
 		64C14A5F2848B6A20073236F /* BoardGameAPI */ = {
 			isa = PBXGroup;
 			children = (
+				64087B2A284B1ADC00EA492D /* SearchPage */,
+				6457EBAC2849BDE100FE7EAA /* GameLists */,
+				6457EBAB2849BDD100FE7EAA /* Video */,
 				64C14A602848B6A20073236F /* AppDelegate.swift */,
 				64C14A622848B6A20073236F /* SceneDelegate.swift */,
-				64C14A642848B6A20073236F /* ViewController.swift */,
 				64C14A662848B6A20073236F /* Main.storyboard */,
 				64C14A692848B6A50073236F /* Assets.xcassets */,
 				64C14A6B2848B6A50073236F /* LaunchScreen.storyboard */,
@@ -139,8 +196,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				64C14A652848B6A20073236F /* ViewController.swift in Sources */,
+				64C14A7B2848D0A40073236F /* VideoCollectionViewController.swift in Sources */,
+				64C14A812848E8720073236F /* YoutubeViewController.swift in Sources */,
+				64C14A752848B7460073236F /* GameListsTableViewController.swift in Sources */,
 				64C14A612848B6A20073236F /* AppDelegate.swift in Sources */,
+				64C14A792848B8D20073236F /* GameLists.swift in Sources */,
+				64C14A772848B75C0073236F /* GameListsTableViewCell.swift in Sources */,
+				6457EBB2284A0C6900FE7EAA /* SearchViewController.swift in Sources */,
+				64C14A7F2848D1060073236F /* Videos.swift in Sources */,
+				64087B2C284B29A000EA492D /* GameInfoTableViewController.swift in Sources */,
+				6457EBB6284A3F2A00FE7EAA /* GameCollectionViewCell.swift in Sources */,
+				64C14A7D2848D0B20073236F /* VideoCollectionViewCell.swift in Sources */,
 				64C14A632848B6A20073236F /* SceneDelegate.swift in Sources */,
+				6457EBB4284A0C8A00FE7EAA /* Search.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
